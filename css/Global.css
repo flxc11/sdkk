@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS-Reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,img,form{padding:0; margin:0;} 
+table,td,tr,th{font-size:12px;}
+li{list-style-type:none;list-style:none; }
+img{vertical-align:top;border:0;}
+ol,ul {list-style:none;}
+div,ul,li,h1,h2,h3,h4,h5,h6,ol,dl,dd,dt,p,P,span { font:normal 12px/24px Verdana, Geneva, sans-serif; color:#777;}
+/* 通用样式 */
+a:link,a:visited {
+	color:#000;
+	text-decoration:none;
+}
+a:hover,a:active {
+	color:#f5d329;
+	text-decoration:none;
+}

@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container {
+	width:980px;
+	overflow:hidden;
+	margin:0 auto;
+	padding-top:56px;
+	padding-bottom:30px;
+}
+.container_right {
+	float:right;
+	width:338px;
+	overflow:hidden;
+	height:490px;
+}
+.container_left {
+	width:500px;
+	height:381px;
+	background:url(../images/bglogin.jpg) no-repeat 0 0;
+	overflow:hidden;
+	margin:0 auto;
+}
+.list {
+	width:578px;
+	height:188px;
+	border:1px dashed #4c4c4c;
+	border-left:0;
+	background:#fff;
+	margin:134px 0 0 30px;
+	display:inline-block;
+}
+.list ul {
+	padding:10px 0;
+}
+.list ul li {
+	float:left;
+	height:35px;
+	line-height:35px;
+	border-bottom:1px dotted ##cccccc;
+	width:540px;
+	padding-left:10px;
+	background:url(../images/icon1.png) no-repeat 0 center;
+}
+.list ul li span {
+	line-height:35px;
+	float:left;
+	margin-right:20px;
+	font-size:14px;
+}
+.login {
+	width:500px;
+	height:454px;
+	margin:0 auto;
+	margin-top:100px;
+}
+.loginput {
+	width:172px;
+	padding-left:10px;
+	height:22px;
+	border:1px solid #0674a9;
+	line-height:22px;
+}
+.footer {
+	width:100%;
+	height:80px;
+	border-top:1px solid #cdcdcd;
+	display:none;
+}
+.footer_cnt {
+	width:980px;
+	text-align:center;
+	line-height:40px;
+	margin:0 auto;
+}
+.header {
+	width:980px;
+	margin:0 auto;
+	height:86px;
+	background:url(../images/imgtop1.jpg) no-repeat 0 0;
+}
+.class {
+	line-height:40px;
+	padding-left:30px;
+	font-size:18px;
+}
+.pl10 {
+	padding-left:10px;
+	color:#F60;
+	font-size:16px;
+}
